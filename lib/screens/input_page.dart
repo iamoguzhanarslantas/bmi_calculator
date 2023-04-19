@@ -1,12 +1,13 @@
 import 'package:bmi_calculator/calculator_brain.dart';
+import 'package:bmi_calculator/components/buttom_button.dart';
+import 'package:bmi_calculator/components/icon_content.dart';
+import 'package:bmi_calculator/components/reusable_card.dart';
+import 'package:bmi_calculator/components/round_icon_button.dart';
+import 'package:bmi_calculator/constants.dart';
+import 'package:bmi_calculator/screens/results_page.dart';
 import 'package:flutter/material.dart';
 
-import '../components/buttom_button.dart';
-import '../constants.dart';
-import '../components/icon_content.dart';
-import 'results_page.dart';
-import '../components/reusable_card.dart';
-import '../components/round_icon_button.dart';
+
 
 enum Gender {
   male,
